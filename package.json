@@ -13,8 +13,14 @@
     },
     "dependencies": {
         "botbuilder": "^4.0.6",
+        "botdispatch": "^1.1.5",
         "botframework-config": "^4.0.6",
+        "chatdown": "^1.0.11",
         "dotenv": "^6.0.0",
+        "ludown": "^1.0.36",
+        "luis-apis": "^2.0.13",
+        "msbot": "^4.0.7",
+        "qnamaker": "^1.0.33",
         "restify": "^6.3.4"
     },
     "devDependencies": {
