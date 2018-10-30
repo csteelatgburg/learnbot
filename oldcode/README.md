@@ -1,5 +1,5 @@
 # learnbot
-Help me to learn
+Help me learn building bots
 
 This bot has been created using [Microsoft Bot Framework][10], it shows how to create a simple echo bot with state. The bot maintains a simple counter that increases with each message from the user. This bot example uses [`restify`][1].
 

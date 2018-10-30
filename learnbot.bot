@@ -1,57 +1,15 @@
 {
-    "name": "steelc-learnbot",
-    "description": "",
+    "name": "learnbot",
     "services": [
         {
-            "type": "abs",
-            "id": "3",
-            "name": "steelc-learnbot",
-            "tenantId": "6232b055-76b9-4c13-9b88-b562ae7db6fb",
-            "subscriptionId": "d813687a-0736-4e4e-8b01-ca3eb3dd88d4",
-            "resourceGroup": "steelc-learnbot",
-            "serviceName": "steelc-learnbot",
-            "appId": "ac5e535d-10bd-4e7e-8e9a-d4de9b6a64a5"
-        },
-        {
             "type": "endpoint",
-            "id": "1",
             "name": "development",
-            "appId": "ac5e535d-10bd-4e7e-8e9a-d4de9b6a64a5",
-            "appPassword": "lZ/prOrw8KR8jygH/Z5y6t0LRtgcbXms/5UvII7FBIY=",
-            "endpoint": "http://localhost:3978/api/messages"
-        },
-        {
-            "type": "endpoint",
-            "id": "2",
-            "name": "production",
-            "appId": "ac5e535d-10bd-4e7e-8e9a-d4de9b6a64a5",
-            "appPassword": "f658AxO3INiTHlNdH6VrAw==!nIqd2ah2VGe4gI9XAgGJ41AxAZBwt9lLgdN39gh0OO8=",
-            "endpoint": "https://steelclearnbotp9ne.azurewebsites.net/api/messages"
-        },
-        {
-            "type": "appInsights",
-            "tenantId": "6232b055-76b9-4c13-9b88-b562ae7db6fb",
-            "subscriptionId": "d813687a-0736-4e4e-8b01-ca3eb3dd88d4",
-            "resourceGroup": "steelc-learnbot",
-            "name": "steelc-learnbotnnqxpc",
-            "serviceName": "steelc-learnbotnnqxpc",
-            "instrumentationKey": "JYTBYgyF1PWc4J+pEyVArg==!Rw12H/XyJAuRciV+Wlg8lQvp/qRk/UGItkAOtfhPaqwgcUkOKzkBYcr1d8a8KIHT",
-            "applicationId": "b8f848d1-1081-4d17-8728-0f7e48bd8c2d",
-            "apiKeys": {},
-            "id": "4"
-        },
-        {
-            "type": "blob",
-            "id": "5",
-            "name": "steelclea339e",
-            "serviceName": "steelclea339e",
-            "tenantId": "6232b055-76b9-4c13-9b88-b562ae7db6fb",
-            "subscriptionId": "d813687a-0736-4e4e-8b01-ca3eb3dd88d4",
-            "resourceGroup": "steelc-learnbot",
-            "connectionString": "Oi3CCywSRua015LSSImwGA==!nYdBefJotiMnUrfxMzSC9t5erXfuPd14Yh7pWFQRh73LWWp0ACWXkquc5ffGiC13FPgInxL0jXqnSLPQr1PfM3RVxlxrXMCiPfjdZ4fPjGPY7f8hoIpLbcbYkt85bx/u94iES5C80c9/kydOjMjencakiDpRbFtj/MHr7qufClALupdDwhU5VL1XRZL+nMNX4DakCwJ3vY9kcsF+SFGbUZojhWSv+hVBogkVZhdJhjK6H0YQVwOQ2xj6+S5EUjPe",
-            "container": "botstatestore"
+            "endpoint": "http://localhost:3978/api/messages",
+            "appId": "",
+            "appPassword": "",
+            "id": "1"
         }
     ],
-    "padlock": "mMsKuPFExNteK7GxArzF1A==!L3qrjw2Jv1oerk9B8LVbbhGWCZOf6e53TgNlDOwAgRDBc7simmvqbte2eell5rqs",
+    "padlock": "",
     "version": "2.0"
 }
