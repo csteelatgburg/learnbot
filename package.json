@@ -21,7 +21,7 @@
         "luis-apis": "^2.0.13",
         "msbot": "^4.0.7",
         "qnamaker": "^1.0.33",
-        "restify": "^6.3.4"
+        "restify": "^6.4.0"
     },
     "devDependencies": {
         "eslint": "^5.6.0",
