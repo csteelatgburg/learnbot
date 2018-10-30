@@ -1,15 +1,57 @@
 {
     "name": "learnbot",
+    "description": "",
     "services": [
         {
+            "type": "abs",
+            "id": "3",
+            "name": "learnbot",
+            "tenantId": "6232b055-76b9-4c13-9b88-b562ae7db6fb",
+            "subscriptionId": "d813687a-0736-4e4e-8b01-ca3eb3dd88d4",
+            "resourceGroup": "learnbot",
+            "serviceName": "learnbot",
+            "appId": "440ec369-ad29-4b54-a8f8-778e79604755"
+        },
+        {
             "type": "endpoint",
+            "id": "1",
             "name": "development",
-            "endpoint": "http://localhost:3978/api/messages",
-            "appId": "",
-            "appPassword": "",
-            "id": "1"
+            "appId": "440ec369-ad29-4b54-a8f8-778e79604755",
+            "appPassword": "9P5uVGD+9JPdoAat4/reAA==!RBQwjH1l3+JDNclDRndcYEtH9vPSS12ysqN0mnYSnBI=",
+            "endpoint": "http://localhost:3978/api/messages"
+        },
+        {
+            "type": "endpoint",
+            "id": "2",
+            "name": "production",
+            "appId": "440ec369-ad29-4b54-a8f8-778e79604755",
+            "appPassword": "6Og1TdvN0G2ie9tJV1N3tg==!3Tp3u8JQ4xoStE2n4adv4DghujGqMQFvUTJ5HMkauMw=",
+            "endpoint": "https://learnbot5ya3.azurewebsites.net/api/messages"
+        },
+        {
+            "type": "appInsights",
+            "tenantId": "6232b055-76b9-4c13-9b88-b562ae7db6fb",
+            "subscriptionId": "d813687a-0736-4e4e-8b01-ca3eb3dd88d4",
+            "resourceGroup": "learnbot",
+            "name": "learnbotv4vt2d",
+            "serviceName": "learnbotv4vt2d",
+            "instrumentationKey": "SQzZPkv4ZMTk676QOWKsuA==!oGeKd1RJPXHOTyow0vQlxp1yQqyWHRsNB3wXHcHse7QTiFiOkhMB4z9E/vwmpB9q",
+            "applicationId": "1cbf5f2b-abb6-4353-8b74-f316816a6745",
+            "apiKeys": {},
+            "id": "4"
+        },
+        {
+            "type": "blob",
+            "id": "5",
+            "name": "learnbotts9w",
+            "serviceName": "learnbotts9w",
+            "tenantId": "6232b055-76b9-4c13-9b88-b562ae7db6fb",
+            "subscriptionId": "d813687a-0736-4e4e-8b01-ca3eb3dd88d4",
+            "resourceGroup": "learnbot",
+            "connectionString": "Svh9pXjWPT4REYrfigAe7A==!g218dGgIusgAjXnk1UWez/wBnAahPhncNPeiNc6HwksK5/2EL2WNB386jXY5I4rKnWyLEPn1gTEjGbiZ3k1azLWrUZYIMZGh7IOJ6EwqnNVwS5/w8ZP7gxNdesGBakb2bmMMaHtxzLej2VBA+LWBtdHYCuUsOzpVtpAEc/bYc/V6xY1Z/JBLxd+VO395/bilZX/A2hpPVKV1NUkxBO+IXlxTbXSO8a9+02wo7DLqjmtXzlFBGLbkmBCkfvf4l26/",
+            "container": "botstatestore"
         }
     ],
-    "padlock": "",
+    "padlock": "OIZp66xN34anvaXmcw+6/Q==!pylx+xJSZE+X7jTwIur8jAyFyxbPnp/AeUWwOrrWZmqdoZu0LHsCTpZb3K1PARwk",
     "version": "2.0"
 }
